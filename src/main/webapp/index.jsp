@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rahul and Dipti's Love Website</title>
+<title>Will You Marry Me?</title>
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -54,6 +54,17 @@
         font-weight: bold;
         font-size: 2em;
     }
+    .quote {
+        font-style: italic;
+        margin-top: 20px;
+        color: #ff007f;
+    }
+    .proposal {
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 50px;
+        color: #ff007f;
+    }
 </style>
 </head>
 <body>
@@ -62,6 +73,10 @@
     <p>A Love Story...</p>
     <p class="rahul">Rahul</p>
     <p class="dipti">Dipti</p>
+    <p class="quote">"You are the sunshine that lights up my darkest days."</p>
+    <p class="quote">"Every moment spent with you is like a beautiful dream come true."</p>
+    <p class="quote">"I have found the one whom my soul loves."</p>
+    <p class="proposal">Dipti, will you marry me?</p>
 </div>
 </body>
 </html>
