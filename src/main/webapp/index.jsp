@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Will You Marry Me?</title>
+<title>Will You Be My Forever?</title>
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -70,13 +70,13 @@
 <body>
 <div class="container">
     <h1>Rahul <span class="heart"></span> Dipti</h1>
-    <p>A Love Story...</p>
+    <p>A Love Like Ours...</p>
     <p class="rahul">Rahul</p>
     <p class="dipti">Dipti</p>
-    <p class="quote">"You are the sunshine that lights up my darkest days."</p>
-    <p class="quote">"Every moment spent with you is like a beautiful dream come true."</p>
-    <p class="quote">"I have found the one whom my soul loves."</p>
-    <p class="proposal">Dipti, will you marry me?</p>
+    <p class="quote">"In your eyes, I found my home, and in your heart, I found my love."</p>
+    <p class="quote">"Every beat of my heart whispers your name, and every breath I take is a reminder of your love."</p>
+    <p class="quote">"My love for you knows no bounds, and I promise to cherish and adore you for eternity."</p>
+    <p class="proposal">Dipti, will you make me the happiest person alive and spend forever with me?</p>
 </div>
 </body>
 </html>
