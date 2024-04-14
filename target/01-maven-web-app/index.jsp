@@ -54,6 +54,11 @@
         font-weight: bold;
         font-size: 2em;
     }
+    .quote {
+        font-style: italic;
+        margin-top: 20px;
+        color: #ff007f;
+    }
 </style>
 </head>
 <body>
@@ -62,6 +67,9 @@
     <p>A Love Story...</p>
     <p class="rahul">Rahul</p>
     <p class="dipti">Dipti</p>
+    <p class="quote">"You are the sunshine that lights up my darkest days."</p>
+    <p class="quote">"Every moment spent with you is like a beautiful dream come true."</p>
+    <p class="quote">"I have found the one whom my soul loves."</p>
 </div>
 </body>
 </html>
