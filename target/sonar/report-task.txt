@@ -2,5 +2,5 @@ projectKey=in.rahulit:01-maven-web-app
 serverUrl=http://3.86.235.148:9000
 serverVersion=7.8.0.26217
 dashboardUrl=http://3.86.235.148:9000/dashboard?id=in.rahulit%3A01-maven-web-app
-ceTaskId=AY77sRzroxG17mtOlqdF
-ceTaskUrl=http://3.86.235.148:9000/api/ce/task?id=AY77sRzroxG17mtOlqdF
+ceTaskId=AY774z9qoxG17mtOlqdG
+ceTaskUrl=http://3.86.235.148:9000/api/ce/task?id=AY774z9qoxG17mtOlqdG

@@ -10,14 +10,9 @@
   
   <properties>
   <sonar.host.url>http://3.86.235.148:9000/</sonar.host.url>
-  <sonar.login>token</sonar.login>
+  <sonar.login>token-of-sonar-server</sonar.login>
   </properties>
-  
-  <plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>3.1.0</version>
-  </plugin>
+ 
  
   
   <dependencies>
