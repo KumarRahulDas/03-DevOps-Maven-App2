@@ -8,8 +8,8 @@
   <name>01-maven-web-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-  <sonar.host.url>http://52.91.213.154:9000/</sonar.host.url>
-  <sonar.login>token-of-sonar-server</sonar.login>
+    <sonar.host.url>http://52.91.213.154:9000/</sonar.host.url>
+    <sonar.login>token-of-sonar-server</sonar.login>
   </properties>
   <dependencies>
     <dependency>
@@ -18,26 +18,30 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-	<dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-webmvc</artifactId>
-    <version>6.1.5</version>
-</dependency>
-<dependency>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>3.11.0.3922</version>
-</dependency>
-
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>6.1.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.sonarsource.scanner.maven</groupId>
+      <artifactId>sonar-maven-plugin</artifactId>
+      <version>3.11.0.3922</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>01-maven-web-app</finalName>
-		<plugins>
-			<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>3.3.1</version>
-</plugin>
-		</plugins>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.1</version>
+      </plugin>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.11.0.3922</version>
+      </plugin>
+    </plugins>
   </build>
 </project>
