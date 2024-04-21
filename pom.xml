@@ -8,7 +8,7 @@
   <name>01-maven-web-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-    <sonar.host.url>http://52.91.213.154:9000/</sonar.host.url>
+    <sonar.host.url>http://3.87.187.10:9000/</sonar.host.url>
     <sonar.login>token-of-sonar-server</sonar.login>
   </properties>
   <dependencies>
@@ -26,13 +26,32 @@
   </dependencies>
   <build>
     <finalName>01-maven-web-app</finalName>
+	<pluginManagement>
     <plugins>
+	<plugin>
+	<artifactId>maven-clean-plugin</artifactId>
+	<version>3.1.0</version>
+	</plugin>
+	<plugin>
+	<artifactId>maven-resource-plugin</artifactId>
+	<version>3.0.2</version>
+	</plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.1</version>
       </plugin>
+	  <plugin>
+	  <artifactId>maven-project-info-reports-plugin</artifactId>
+	  <version>3.7.0.1746</version>
+	  </plugin>
+	  <plugin>
+	  <groupId>org.sonarsource.scanner.maven</groupId>
+	  <artifactId>sonar-maven-plugin</artifactId>
+	  <version>3.7.0.1746</version>
+	  </plugin>
   
     </plugins>
+	</pluginManagement>
   </build>
 </project>
