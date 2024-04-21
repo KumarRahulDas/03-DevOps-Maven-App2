@@ -75,8 +75,7 @@
     <p class="dipti">Dipti</p>
     <p class="quote">"In your eyes, I found my home, and in your heart, I found my love."</p>
     <p class="quote">"Every beat of my heart whispers your name, and every breath I take is a reminder of your love."</p>
-    <p class="quote">"My love for you knows no bounds, and I promise to cherish and adore you for eternity."</p>
-    <p class="proposal">Dipti, will you make me the happiest person alive and spend forever with me?</p>
+
 </div>
 </body>
 </html>
