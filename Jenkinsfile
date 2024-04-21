@@ -25,5 +25,12 @@ pipeline {
                 }
             }
         }
+        stage('Code deploy'){
+            steps{
+                sshagent(['Tomcat-Server']) {
+                    sh 'scp -o StrictHostKeyChecking=no target/01-maven-web-app.war ec2-user@3.90.190.204:/home/ec2-user/apache-tomcat-9.0.88/webapps'
+                }
+            }
+        }
     }
 }
